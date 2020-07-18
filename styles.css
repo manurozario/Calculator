@@ -1,0 +1,68 @@
+body {
+
+}
+
+.calculator-body{
+  background-color: #565656;
+  width: 25rem;
+  height: 30rem;
+  margin: 55px auto 0;
+  border-radius: 7%;
+
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.screen {
+  background-color: #fff;
+  width: 80%;
+  height: 7%;
+  margin: 0 auto 40px;
+  position: relative;
+  top: 20px;
+  border-radius: 10px;
+  padding: 1% 2%;
+}
+
+.buttons {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  font-size: 1.2rem;
+  background-color: #d3d3d3;
+  outline: none;
+  border-style: none;
+  border-radius: 25%;
+  margin: 1.5%;
+  width: 4rem;
+  height: 4rem;
+}
+
+.btn-sign {
+  color: #fff;
+  background-color: #FF9500;
+}
+
+.btn-ac, .btn-del {
+  color: #fff;
+  background-color: #de1738;
+}
+
+.btn-0 {
+  width: 8.8rem;
+  border-radius: 14px;
+}
+
+p {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.pressed {
+  background-color: #fff;
+  color: #000;
+}
